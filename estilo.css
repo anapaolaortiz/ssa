@@ -1,0 +1,256 @@
+*{
+   margin: 0px; 
+}
+body{
+    background: rgb(203, 249, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
+    font-family: 'Nunito', sans-serif;
+}
+img{width: 40%;
+         
+}
+   h1{
+    font-family: 'Nunito', sans-serif;
+    font-size: 30px;
+
+   } 
+   h1 strong{
+       color: #001679;
+
+   }
+
+ul{
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
+        display: flex;
+        height: inherit;
+}
+
+.header {
+        background: rgb(75, 178, 219);
+        color: whitesmoke;
+        display: flex;
+        justify-content: space-between;
+        height: 90px;
+        }
+     header li{
+            height: inherit;
+        }
+.header a {
+    color: whitesmoke;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.logo img{
+        width: 70px;
+
+}
+.menu{
+    height:inherit ;
+    padding: 30px;
+}
+.principal-boton{
+    width: 250px;
+    height: 40px;
+    background-color: #6981ec;
+    border-radius: 24px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    
+}
+
+.principal{
+        background:rgb(51, 192, 197);
+        background-image: url(img/agua676.PNG);
+        background-size: cover;
+        background-repeat: no-repeat;
+        text-align: center;
+        font-family: 'Anton', sans-serif;
+        padding: 100px;
+    }
+.principal img {
+        width: 300px;
+}
+.somos{
+    background:rgb(55, 139, 207);
+  text-align: center;
+  padding:50px ;
+  font-size: 20px;
+} 
+ /*   
+.padre{
+    background: white;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction:row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+}
+.hijo{
+background: orange;
+width: 200px;
+height: 200px;
+border: 2px solid yellowgreen;
+font-size: 30px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+*/
+.aplicar{
+    height: 500px;
+    background: white;
+    display:flex ;
+    color: black;
+}
+.aplicar-detalles{
+    width: 50%;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 30px;
+}
+.aplicar-detalles img{
+    height: 50%;
+    width: 50%;
+}
+.cronometro{
+    background: rgb(255, 217, 229);
+    padding: 40px;
+   display: flex;
+}
+.cronometro img{
+    text-align: right;
+    width: 20%;
+    height: 220px;
+}
+.cronometro p{
+    text-align: center;
+    padding: 80px 20px;
+    font-size: 200%;
+}
+.principal2{
+        background: rgb(0, 113, 189);
+        text-align: center;
+     margin: 60px 40px;
+        padding: 100px;
+}
+.row1{
+    display: flex;
+    margin: 20px 0px;
+}
+.row1 img{
+    width: 35px;
+    height:25px ;
+}
+.row2 img{
+    width: 30px;
+    
+}
+
+.row3 img{
+    width: 30px;
+}
+.row3{
+    display: flex;
+    margin: 20px 0px ;
+}
+.somos h1{
+    color: #0fdbd1;
+    margin-bottom: 10px;
+}
+.somos p{
+    margin-bottom: 20px;
+}
+.ana{
+    background: rgb(255, 255, 255);
+    text-align: center;
+    padding: 70px;
+margin: 40px 40px;  
+}
+.ana h1{
+    color: #1eb5cf;
+}
+.principal3{
+        background: rgb(175, 224, 224);
+        text-align: left;
+        padding: 70px;
+    margin: 40px 40px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.ciclo-principal3{
+    width: 400px;
+}
+.ciclo-principal3 img{
+        width: 70%;
+}
+.agua-principal3{
+   width: 400px;
+}
+.agua-principal3 img{
+    width: 60%;
+}
+.principal4{
+        background: #ffffff;
+        text-align: center;
+      margin: 40px;
+      padding: 70px;
+     }
+.principal4 img{width: 20%;}
+.principal5{
+        background: rgb(99, 224, 255);;
+    text-align:center;
+   
+    margin: 40px 40px;
+    padding:70px 70px ;
+    font-size: medium;
+}
+.letters-principal5{
+   justify-content: center;
+    margin: 20px; 
+}
+.elementos-principal5{
+    display: flex;
+    justify-content: center;
+}
+.principal5 img{width: 10%;}
+.principal5 h1{
+    color: #020091;
+}
+.principal5 h2{
+    color: #000000;
+}
+.container1{
+    display: flex;
+    background: #1eb5cf;
+    padding: 20px;
+    justify-content: space-around ;
+}
+.col1{
+    width: 400px;
+}
+.col2{
+    width: 200px;
+}
+.col3{
+    width: 300px;
+}
+.container2{
+    background: pink;
+    padding: 50px 600px;
+}
+
+img{width: 20%;}
+    
